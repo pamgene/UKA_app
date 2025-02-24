@@ -1,0 +1,122 @@
+{
+ "kind": "TableSchema",
+ "id": "6e25f1b473b00b1fe2f5e20485ccc2ce04d4092567a2d743a681bfd1d53c65e3",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "UKA_allvsall_input.csv",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "6e25f1b473b00b1fe2f5e20485ccc2ce04d4092567a2d743a681bfd1d53c65e3"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 2595,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "21b5d250-7f9b-4e9e-863c-81b8bcf51a75",
+   "name": "Supergroup",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b7e5a3b5-a303-4aa1-8daf-5e43c1a41ac4",
+   "name": "Group",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "2352ecd5-e96e-4c00-b5dc-c6f75df5ab77",
+   "name": "Variable",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "a096a1e1-707e-4d54-b22e-23b74a904a8b",
+   "name": "Observation",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "97036a06-6b53-49fd-962f-d080e04a654f",
+   "name": "Measurement",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/6e/25/6e25f1b473b00b1fe2f5e20485ccc2ce04d4092567a2d743a681bfd1d53c65e3",
+ "relation": {
+  "kind": "Relation",
+  "id": "772376bd-d238-4b1c-9ab3-86a18f508fc2"
+ },
+ "size": 91104
+}

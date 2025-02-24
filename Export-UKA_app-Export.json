@@ -1,0 +1,41 @@
+{
+ "kind": "TableSchema",
+ "id": "5",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "Export-UKA_app-Export",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 0,
+ "columns": [],
+ "dataDirectory": "",
+ "relation": {
+  "kind": "SimpleRelation",
+  "id": "c21fb4666386b2cb8953988e0b0de1e205e7ad30bb2e98a8eb855a77cbc20c64",
+  "index": 0
+ },
+ "size": 0
+}

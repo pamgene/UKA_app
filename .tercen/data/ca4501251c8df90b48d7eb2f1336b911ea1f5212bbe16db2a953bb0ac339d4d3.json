@@ -1,0 +1,307 @@
+{
+ "kind": "TableSchema",
+ "id": "ca4501251c8df90b48d7eb2f1336b911ea1f5212bbe16db2a953bb0ac339d4d3",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "row",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "UKA.Kinase Group.size_in_bytes",
+   "value": "3704"
+  },
+  {
+   "kind": "Pair",
+   "key": "UKA.Kinase Uniprot ID.size_in_bytes",
+   "value": "4608"
+  },
+  {
+   "kind": "Pair",
+   "key": "UKA..Supergroup.size_in_bytes",
+   "value": "4904"
+  },
+  {
+   "kind": "Pair",
+   "key": "UKA.contrast.size_in_bytes",
+   "value": "6472"
+  },
+  {
+   "kind": "Pair",
+   "key": "UKA.Kinase Name.size_in_bytes",
+   "value": "4040"
+  },
+  {
+   "kind": "Pair",
+   "key": "UKA.Kinase Family.size_in_bytes",
+   "value": "3832"
+  },
+  {
+   "kind": "Pair",
+   "key": "hidden",
+   "value": "true"
+  },
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "ca4501251c8df90b48d7eb2f1336b911ea1f5212bbe16db2a953bb0ac339d4d3"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 300,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "e4f8f5e2-18f6-457a-9c08-4ac1b59c0139",
+   "name": "UKA..Supergroup",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "1421faee-f6dc-4f77-badf-8e06ae506bdc",
+   "name": "UKA.contrast",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "0b1fe763-a422-415e-8914-7e4316f8441b",
+   "name": "UKA.Kinase Name",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "14479d93-f8dc-4841-9bc8-9615ea06578b",
+   "name": "UKA.Kinase Uniprot ID",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "9e9b2f9a-bffb-400c-ae41-d61c1e389316",
+   "name": "UKA.Kinase Group",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "f22767aa-92bf-42d1-932c-83b6dd5a1971",
+   "name": "UKA.Kinase Family",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "cb09c1f7-9f01-4828-a0da-8b86eee5f929",
+   "name": "UKA.Median Final score",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "c1b6080b-d47c-4dda-976b-f1cb31be46ec",
+   "name": "UKA.Mean Significance Score",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "69d62a7e-c774-402c-b830-d616f1818759",
+   "name": "UKA.Mean Specificity Score",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "78c0c906-1d21-4cb9-b4b8-e4ed2c2542fa",
+   "name": "UKA.Median Kinase Statistic",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "adf38d34-118b-49cd-b480-fa4037363f84",
+   "name": "UKA.Median Kinase Change",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "79dbb338-fb6d-40bd-ab6c-3bfcbf663a0a",
+   "name": "UKA.Mean peptide set size",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "c599bd21-8b17-48a2-ba33-0518bb53a8c1",
+   "name": "UKA.Max Final score",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d0bb8b9a-3d49-4320-9236-f0ce8a686d6a",
+   "name": "UKA.SD Kinase Statitistic",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "626e3268-729b-4c72-a088-01a5b89bf323",
+   "name": "UKA.Mean Kinase Statistic",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/ca/45/ca4501251c8df90b48d7eb2f1336b911ea1f5212bbe16db2a953bb0ac339d4d3",
+ "relation": {
+  "kind": "Relation",
+  "id": "8baf810b-f8ee-44f8-86ff-a1d0513e4484"
+ },
+ "size": 264448
+}

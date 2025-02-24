@@ -16,7 +16,7 @@ Input projection|.
 Input parameters|Default value|.
 ---|---|---
 `Kinase_family`| PTK | Type of kinase family, either PTK or STK.
-`MinimumSequenceHomology`| 0.9 ||Minimum sequence homology between peptides and phosphosites
+`MinimumSequenceHomology`| 0.9 | Minimum sequence homology between peptides and phosphosites
 `MinimumKxsScore` | 300 | Minimum PhospoNET score for upstream kinases
 `NumberOfPerms` | 500 | Number of permutations to calculate significance and specificity scores
 `MinRank` | 4 | Minimum PhospoNET rank for upstream kinases
