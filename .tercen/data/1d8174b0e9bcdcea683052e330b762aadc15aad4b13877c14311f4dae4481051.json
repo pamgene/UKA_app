@@ -1,6 +1,6 @@
 {
  "kind": "TableSchema",
- "id": "c21fb4666386b2cb8953988e0b0de1e205e7ad30bb2e98a8eb855a77cbc20c64",
+ "id": "1d8174b0e9bcdcea683052e330b762aadc15aad4b13877c14311f4dae4481051",
  "isDeleted": false,
  "rev": "",
  "description": "",
@@ -23,38 +23,38 @@
  "meta": [
   {
    "kind": "Pair",
-   "key": "UKA_app.UKA.Sgroup_contrast.size_in_bytes",
-   "value": "8888"
+   "key": "UKA_app.UKA..Supergroup.size_in_bytes",
+   "value": "5424"
   },
   {
    "kind": "Pair",
    "key": "UKA_app.UKA.Kinase Family.size_in_bytes",
-   "value": "3840"
+   "value": "4232"
   },
   {
    "kind": "Pair",
    "key": "UKA_app.UKA.Kinase Uniprot ID.size_in_bytes",
-   "value": "4616"
+   "value": "5096"
   },
   {
    "kind": "Pair",
    "key": "UKA_app.UKA.Kinase Group.size_in_bytes",
-   "value": "3712"
+   "value": "4096"
   },
   {
    "kind": "Pair",
    "key": "UKA_app.UKA.contrast.size_in_bytes",
-   "value": "6480"
-  },
-  {
-   "kind": "Pair",
-   "key": "UKA_app.UKA..Supergroup.size_in_bytes",
-   "value": "4912"
+   "value": "7160"
   },
   {
    "kind": "Pair",
    "key": "UKA_app.UKA.Kinase Name.size_in_bytes",
-   "value": "4048"
+   "value": "4472"
+  },
+  {
+   "kind": "Pair",
+   "key": "UKA_app.UKA.Sgroup_contrast.size_in_bytes",
+   "value": "9824"
   },
   {
    "kind": "Pair",
@@ -64,7 +64,7 @@
   {
    "kind": "Pair",
    "key": "SHA256",
-   "value": "c21fb4666386b2cb8953988e0b0de1e205e7ad30bb2e98a8eb855a77cbc20c64"
+   "value": "1d8174b0e9bcdcea683052e330b762aadc15aad4b13877c14311f4dae4481051"
   }
  ],
  "url": {
@@ -75,11 +75,11 @@
  "isPublic": false,
  "projectId": "",
  "folderId": "",
- "nRows": 300,
+ "nRows": 332,
  "columns": [
   {
    "kind": "ColumnSchema",
-   "id": "ac0fc702-aad1-4974-953d-1a936b6edf7a",
+   "id": "57c7b36d-23fd-423a-bf92-014aa46f7b5b",
    "name": "UKA_app.UKA..Supergroup",
    "type": "string",
    "nRows": 0,
@@ -94,7 +94,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "10cbe9f2-1b58-415d-a2db-842c4131a009",
+   "id": "07dc8b04-16cd-4b52-95c5-bde6c7aab8de",
    "name": "UKA_app.UKA.contrast",
    "type": "string",
    "nRows": 0,
@@ -109,7 +109,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "55ca4360-2d53-4aea-a75e-9755ca1b756d",
+   "id": "6ffd6c31-ba78-4fe3-aa22-e7732cf224f6",
    "name": "UKA_app.UKA.Sgroup_contrast",
    "type": "string",
    "nRows": 0,
@@ -124,7 +124,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "c453747d-4d0b-489c-8353-1b825f441311",
+   "id": "f07240bf-5199-4733-b9da-b5348d733ba0",
    "name": "UKA_app.UKA.Kinase Name",
    "type": "string",
    "nRows": 0,
@@ -139,7 +139,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "dccf5bb8-2265-43a0-84a4-56030265c677",
+   "id": "b5456219-ec13-4ba4-92a3-697b49c76189",
    "name": "UKA_app.UKA.Kinase Uniprot ID",
    "type": "string",
    "nRows": 0,
@@ -154,7 +154,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "608f550e-9c80-45dd-908d-e626fdde63b7",
+   "id": "975a42ca-3aef-4380-becb-f60941bcc82b",
    "name": "UKA_app.UKA.Kinase Group",
    "type": "string",
    "nRows": 0,
@@ -169,7 +169,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "899e366f-a8a7-47ee-9317-5e4714d521b5",
+   "id": "a598330a-8e52-4326-8d0d-2f9bd3b22b6d",
    "name": "UKA_app.UKA.Kinase Family",
    "type": "string",
    "nRows": 0,
@@ -184,7 +184,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "b7f07758-8cfc-4f9b-ba96-9842588fa189",
+   "id": "47395117-0051-452b-9901-854a724e5ed7",
    "name": "UKA_app.UKA.Median Final score",
    "type": "double",
    "nRows": 0,
@@ -199,7 +199,22 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "708644d8-310a-415b-b931-eadd7cc96a85",
+   "id": "b81cf0f0-6e2a-4da5-b78d-36c0cb8f923d",
+   "name": "UKA_app.UKA.Final score rank",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b896b04a-3f4b-481f-b86e-081179419b30",
    "name": "UKA_app.UKA.Mean Significance Score",
    "type": "double",
    "nRows": 0,
@@ -214,7 +229,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "2f574772-e853-4c20-bfb3-aad8f6714937",
+   "id": "16fcdb83-2d9f-4a10-95dd-9dc7ddce8768",
    "name": "UKA_app.UKA.Mean Specificity Score",
    "type": "double",
    "nRows": 0,
@@ -229,7 +244,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "a1f2c951-4d37-4d93-9ada-3aacd99ce486",
+   "id": "5b1fd656-82fa-4d60-b119-9d415147771d",
    "name": "UKA_app.UKA.Median Kinase Statistic",
    "type": "double",
    "nRows": 0,
@@ -244,7 +259,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "3b496f35-c2be-4da9-8722-7758964195a6",
+   "id": "b71ffac7-ea2a-4c68-9f14-ca4486d495df",
    "name": "UKA_app.UKA.Median Kinase Change",
    "type": "double",
    "nRows": 0,
@@ -259,7 +274,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "30c4072b-e7ff-4aaf-b87f-3e1962b5c206",
+   "id": "f715ffc6-7f70-408f-85e5-fd391cbaa02a",
    "name": "UKA_app.UKA.Mean peptide set size",
    "type": "double",
    "nRows": 0,
@@ -274,7 +289,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "cbe80d58-9969-4367-b9a6-2a6919814c84",
+   "id": "4aa7321c-c498-4aa5-ae30-54c8e83a836c",
    "name": "UKA_app.UKA.Max Final score",
    "type": "double",
    "nRows": 0,
@@ -289,8 +304,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "0bab1c3e-95ff-4fa8-b080-47f7bd35a342",
-   "name": "UKA_app.UKA.SD Kinase Statitistic",
+   "id": "041da2dd-1e42-45d4-b2c0-1253ff9d8133",
+   "name": "UKA_app.UKA.SD Kinase Statistic",
    "type": "double",
    "nRows": 0,
    "size": -1,
@@ -304,7 +319,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "044fb764-e8e2-4cc0-a161-428442e64de0",
+   "id": "51149ffb-464e-4606-bab0-e0d466b3ee47",
    "name": "UKA_app.UKA.Mean Kinase Statistic",
    "type": "double",
    "nRows": 0,
@@ -318,10 +333,10 @@
    }
   }
  ],
- "dataDirectory": "data/c2/1f/c21fb4666386b2cb8953988e0b0de1e205e7ad30bb2e98a8eb855a77cbc20c64",
+ "dataDirectory": "data/1d/81/1d8174b0e9bcdcea683052e330b762aadc15aad4b13877c14311f4dae4481051",
  "relation": {
   "kind": "Relation",
-  "id": "cb6456c4-1ab7-42e3-9008-3059b788aa4b"
+  "id": "96e5da5d-4f01-4219-8ae8-151d5721e377"
  },
- "size": 322320
+ "size": 352400
 }

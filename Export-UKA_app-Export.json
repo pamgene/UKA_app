@@ -1,6 +1,6 @@
 {
  "kind": "TableSchema",
- "id": "5",
+ "id": "4",
  "isDeleted": false,
  "rev": "",
  "description": "",
@@ -34,7 +34,7 @@
  "dataDirectory": "",
  "relation": {
   "kind": "SimpleRelation",
-  "id": "c21fb4666386b2cb8953988e0b0de1e205e7ad30bb2e98a8eb855a77cbc20c64",
+  "id": "1d8174b0e9bcdcea683052e330b762aadc15aad4b13877c14311f4dae4481051",
   "index": 0
  },
  "size": 0
