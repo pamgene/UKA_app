@@ -20,7 +20,13 @@
  },
  "urls": [],
  "tags": [],
- "meta": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "PUBLISHED",
+   "value": "true"
+  }
+ ],
  "url": {
   "kind": "Url",
   "uri": ""
@@ -1896,7 +1902,7 @@
       "factors": [],
       "factorName": "Test Condition",
       "isSingle": true,
-      "isRequired": true
+      "isRequired": false
      },
      {
       "kind": "MappingFactor",
@@ -2468,8 +2474,8 @@
  ],
  "offset": {
   "kind": "Point",
-  "x": 23.0,
-  "y": 65.0
+  "x": 17.0,
+  "y": 69.0
  },
  "scale": 1.0
 }
