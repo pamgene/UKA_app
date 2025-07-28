@@ -3,11 +3,24 @@ Upstream Kinase Analysis app for comparing all conditions in each column (for ea
 The direction of the comparison (contrast) is by default "Test vs Control" type: the condition starting with lower letter in the alphabet is used as the control condition.
 
 ## Versions:
-* 0.0.1 - UKAdb 2025  (contains Array Layouts 86312, 86402, 86412, 87102, 87202, and no missing ids)
-* 0.1.0 - UKAdb with Kinase Library db
 
+UKA_app version|UKAdb version|UKAdb year|UKA operator version|Description
+---|---|---|---|---
+0.0.1|0.3.0|2025|0.3|Used for UKA_app, does everything vs everything comparison for each supergroup.
+0.1.0|0.4.0|2025|0.4|UKAdb includes Kinase Library (KL) db with all ranks = 1. New parameter in UKA operator: KL weight.
+0.2.0|0.5.0|2025|0.5|UKA operator changes: FC input supported (new parameter: UKAType); exports kinase entrezid; bugfix: IDs previously not used bc of typo & special characters (H2B1B_ 27_40, VGFR1_1320_1332_C1320K/C1321K and VGFR1_1320_1332_C1320S/C1321S) are fixed. UKAdb changes: KL db with its own ranks; mutated PTK peptides with Protein matches from nonmutated sequences. Family of some kinases were manually added. 
 
-## Inputs of the uka_operator:
+Before this UKA app, different UKA apps were used:
+
+UKA app type|UKAdb version|UKAdb year|UKA operator version|Description
+---|---|---|---|---
+-|0.0.1|2022|Local BioNavigator version|Used in local BioNavigator-
+[UKA_shiny_app](https://github.com/pamgene/UKA_shiny_app)|0.1.0|2023|0.0-0.0.4|Contains Array Layouts 86312, 86402, 86412, 87102. Used for apps UKA_TGC, UKA_MTvC.
+[UKA_TGC](https://github.com/pamgene/UKA_TGC_app), [UKA_MTvC](https://github.com/pamgene/UKA_MTvC_app)|0.2.0|2024|0.1.0|New array layout added: 87202. 
+UKA_TGC, UKA_MTvC|0.3.0|2025|0.2.0|Bugfix: missing IDs are added: MK07_212_224, JAK1_1027_1039, DCX_67_79. 
+UKA_TGC, UKA_MTvC|0.3.0|2025|0.2.4|Dual specificity kinases excluded from the results.
+
+## Input projection of the uka_operator:
 
 Input projection|.
 ---|---
@@ -16,6 +29,8 @@ Input projection|.
 `x axis` | grouping (test condition)
 `column`| supergroup (required)
 `label`| observations (samples, e.g. Barcode, Row)
+
+## Input Parameters of the uka_operator:
 
 Input parameters|Default value|.
 ---|---|---

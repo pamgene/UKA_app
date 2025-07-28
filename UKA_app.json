@@ -74,20 +74,20 @@
   },
   {
    "kind": "Link",
-   "id": "e33466aa-a9ad-4a10-a319-22a5391e17c0",
+   "id": "e44a585e-3233-4285-b844-69ac9b1a270a",
    "inputId": "079c1cd1-4620-40b6-90c2-4a26ad5e5627-i-0",
    "outputId": "0bb44f7b-9623-4d90-9e13-313aedf2c85a-o-0"
   },
   {
    "kind": "Link",
-   "id": "12717db3-9aac-4b64-8a68-d482353592aa",
+   "id": "f6f6d4d3-45d0-4779-a1ad-3d41f9754d41",
    "inputId": "0bb44f7b-9623-4d90-9e13-313aedf2c85a-i-0",
-   "outputId": "8c82c60a-952d-4e01-b48c-d29ec1e4ef83-o-0"
+   "outputId": "b22859eb-6d86-4f67-a466-eda59df934b5-o-0"
   },
   {
    "kind": "Link",
-   "id": "322cbeb5-5c50-4608-965c-6fd6c331854c",
-   "inputId": "81248054-883c-4b63-b7a9-cf3456ec85b5-i-0",
+   "id": "3f2aa02d-30ec-4d81-a6d9-94d5b71ab50b",
+   "inputId": "42e6b617-574a-4c78-b2d0-45ccea886019-i-0",
    "outputId": "079c1cd1-4620-40b6-90c2-4a26ad5e5627-o-0"
   }
  ],
@@ -122,7 +122,7 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 745.505,
+     "x": 744.505,
      "y": 198.5
     }
    },
@@ -267,7 +267,7 @@
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 0.0,
+         "x": 100.0,
          "y": 30.0
         },
         "topLeft": {
@@ -292,7 +292,7 @@
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "UKA operator",
-      "version": "0.4.2",
+      "version": "0.5.4",
       "operatorId": "2",
       "operatorKind": "ROperator",
       "propertyValues": [
@@ -344,7 +344,7 @@
        {
         "kind": "PropertyValue",
         "name": "KLWeight",
-        "value": "1"
+        "value": "0"
        },
        {
         "kind": "PropertyValue",
@@ -355,6 +355,11 @@
         "kind": "PropertyValue",
         "name": "ReverseContrast",
         "value": "true"
+       },
+       {
+        "kind": "PropertyValue",
+        "name": "UKAType",
+        "value": "Comparison"
        }
       ],
       "url": {
@@ -408,7 +413,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "ecbd0d72-769e-489f-9a44-5f8744d801a2"
+    "id": "de6c8841-cca1-425c-81f3-b153342f6be0"
    },
    "parentDataStepId": ""
   },
@@ -442,7 +447,7 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 823.6260681152344,
+     "x": 824.6260681152344,
      "y": 300.5
     }
    },
@@ -660,30 +665,9 @@
     },
     "rowTable": {
      "kind": "CrosstabTable",
-     "cellSize": 34.5,
+     "cellSize": 19.0,
      "offset": 0,
      "graphicalFactors": [
-      {
-       "kind": "GraphicalFactor",
-       "factor": {
-        "kind": "Factor",
-        "name": "UKA..Supergroup",
-        "type": "string"
-       },
-       "rectangle": {
-        "kind": "Rectangle",
-        "extent": {
-         "kind": "Point",
-         "x": 91.0,
-         "y": 30.0
-        },
-        "topLeft": {
-         "kind": "Point",
-         "x": 0.0,
-         "y": 0.0
-        }
-       }
-      },
       {
        "kind": "GraphicalFactor",
        "factor": {
@@ -759,6 +743,27 @@
         "extent": {
          "kind": "Point",
          "x": 62.0,
+         "y": 30.0
+        },
+        "topLeft": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 0.0
+        }
+       }
+      },
+      {
+       "kind": "GraphicalFactor",
+       "factor": {
+        "kind": "Factor",
+        "name": "UKA.Kinase entrezid",
+        "type": "int32"
+       },
+       "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+         "kind": "Point",
+         "x": 190.0,
          "y": 30.0
         },
         "topLeft": {
@@ -947,7 +952,7 @@
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 125.0,
+         "x": 68.0,
          "y": 30.0
         },
         "topLeft": {
@@ -1022,13 +1027,13 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 332
+     "nRows": 260
     },
     "taskId": ""
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "65b57d61-610c-448a-b527-bb029b8bf8bd"
+    "id": "95175337-5a87-4901-b822-3689c670ffbb"
    },
    "parentDataStepId": ""
   },
@@ -1264,7 +1269,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 4
+     "nRows": 2
     },
     "filters": {
      "kind": "Filters",
@@ -1363,7 +1368,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "eeaf50a8-0e17-489e-9cef-1af5986011aa"
+    "id": "83a7b9cc-778c-4ff3-9449-ee5af8520d9a"
    },
    "parentDataStepId": ""
   },
@@ -1623,7 +1628,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 4
+     "nRows": 2
     },
     "filters": {
      "kind": "Filters",
@@ -1743,7 +1748,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "327e4bb6-75d2-4576-a9f3-1f5df39fe5b1"
+    "id": "421327cc-5d62-4cd4-8abd-e7f3a59aaa46"
    },
    "parentDataStepId": ""
   },
@@ -1849,8 +1854,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 745.505,
-     "y": 105.5
+     "x": 741.505,
+     "y": 98.5
     }
    },
    "state": {
@@ -1875,13 +1880,7 @@
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
-      "factors": [
-       {
-        "kind": "Factor",
-        "name": "Measurement",
-        "type": "double"
-       }
-      ],
+      "factors": [],
       "factorName": "Quantitation Type",
       "isSingle": true,
       "isRequired": true
@@ -1894,13 +1893,7 @@
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
-      "factors": [
-       {
-        "kind": "Factor",
-        "name": "Group",
-        "type": "string"
-       }
-      ],
+      "factors": [],
       "factorName": "Test Condition",
       "isSingle": true,
       "isRequired": true
@@ -1913,13 +1906,7 @@
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
-      "factors": [
-       {
-        "kind": "Factor",
-        "name": "Variable",
-        "type": "string"
-       }
-      ],
+      "factors": [],
       "factorName": "Peptide",
       "isSingle": false,
       "isRequired": true
@@ -1932,13 +1919,7 @@
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
-      "factors": [
-       {
-        "kind": "Factor",
-        "name": "Supergroup",
-        "type": "string"
-       }
-      ],
+      "factors": [],
       "factorName": "Supergroup",
       "isSingle": false,
       "isRequired": true
@@ -1951,16 +1932,10 @@
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
-      "factors": [
-       {
-        "kind": "Factor",
-        "name": "Observation",
-        "type": "string"
-       }
-      ],
+      "factors": [],
       "factorName": "Single Data Value per Cell",
       "isSingle": false,
-      "isRequired": true
+      "isRequired": false
      }
     ],
     "filters": [],
@@ -2002,7 +1977,7 @@
       ],
       "factorName": "Test Condition",
       "isSingle": true,
-      "isRequired": true
+      "isRequired": false
      },
      {
       "kind": "MappingFactor",
@@ -2059,7 +2034,7 @@
       ],
       "factorName": "Single Data Value per Cell",
       "isSingle": false,
-      "isRequired": true
+      "isRequired": false
      }
     ],
     "defaultFilters": []
@@ -2390,19 +2365,19 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "eab8f038-7a3a-44b1-b492-6755c23fefbe"
+    "id": "9d6afb09-38db-4a24-9458-fce8a3eb9041"
    },
    "parentDataStepId": ""
   },
   {
    "kind": "InStep",
-   "id": "8c82c60a-952d-4e01-b48c-d29ec1e4ef83",
+   "id": "b22859eb-6d86-4f67-a466-eda59df934b5",
    "groupId": "",
    "name": "Input",
    "inputs": [
     {
      "kind": "InputPort",
-     "id": "8c82c60a-952d-4e01-b48c-d29ec1e4ef83-i-0",
+     "id": "b22859eb-6d86-4f67-a466-eda59df934b5-i-0",
      "linkType": "any",
      "name": "from"
     }
@@ -2410,7 +2385,7 @@
    "outputs": [
     {
      "kind": "OutputPort",
-     "id": "8c82c60a-952d-4e01-b48c-d29ec1e4ef83-o-0",
+     "id": "b22859eb-6d86-4f67-a466-eda59df934b5-o-0",
      "linkType": "any",
      "name": "to"
     }
@@ -2424,8 +2399,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 756.505,
-     "y": -2.5
+     "x": 740.505,
+     "y": -6.5
     }
    },
    "state": {
@@ -2444,13 +2419,13 @@
   },
   {
    "kind": "OutStep",
-   "id": "81248054-883c-4b63-b7a9-cf3456ec85b5",
+   "id": "42e6b617-574a-4c78-b2d0-45ccea886019",
    "groupId": "",
    "name": "Output",
    "inputs": [
     {
      "kind": "InputPort",
-     "id": "81248054-883c-4b63-b7a9-cf3456ec85b5-i-0",
+     "id": "42e6b617-574a-4c78-b2d0-45ccea886019-i-0",
      "linkType": "any",
      "name": "from"
     }
@@ -2458,7 +2433,7 @@
    "outputs": [
     {
      "kind": "OutputPort",
-     "id": "81248054-883c-4b63-b7a9-cf3456ec85b5-o-0",
+     "id": "42e6b617-574a-4c78-b2d0-45ccea886019-o-0",
      "linkType": "any",
      "name": "to"
     }
@@ -2472,8 +2447,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 942.505,
-     "y": 195.5
+     "x": 894.505,
+     "y": 192.5
     }
    },
    "state": {
@@ -2493,8 +2468,8 @@
  ],
  "offset": {
   "kind": "Point",
-  "x": 27.0,
-  "y": 103.0
+  "x": 23.0,
+  "y": 65.0
  },
  "scale": 1.0
 }
