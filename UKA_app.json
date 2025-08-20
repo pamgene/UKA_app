@@ -80,21 +80,21 @@
   },
   {
    "kind": "Link",
-   "id": "e44a585e-3233-4285-b844-69ac9b1a270a",
+   "id": "7a3184e3-ac10-4689-8280-18c32a641cba",
    "inputId": "079c1cd1-4620-40b6-90c2-4a26ad5e5627-i-0",
    "outputId": "0bb44f7b-9623-4d90-9e13-313aedf2c85a-o-0"
   },
   {
    "kind": "Link",
-   "id": "f6f6d4d3-45d0-4779-a1ad-3d41f9754d41",
-   "inputId": "0bb44f7b-9623-4d90-9e13-313aedf2c85a-i-0",
-   "outputId": "b22859eb-6d86-4f67-a466-eda59df934b5-o-0"
+   "id": "2ee09563-6119-4a48-a4ed-1da2636f73d3",
+   "inputId": "fe28e296-1476-475f-87e7-347b6b5afb01-i-0",
+   "outputId": "079c1cd1-4620-40b6-90c2-4a26ad5e5627-o-0"
   },
   {
    "kind": "Link",
-   "id": "3f2aa02d-30ec-4d81-a6d9-94d5b71ab50b",
-   "inputId": "42e6b617-574a-4c78-b2d0-45ccea886019-i-0",
-   "outputId": "079c1cd1-4620-40b6-90c2-4a26ad5e5627-o-0"
+   "id": "436bd2e4-f929-4523-8c37-545da3c7f2db",
+   "inputId": "0bb44f7b-9623-4d90-9e13-313aedf2c85a-i-0",
+   "outputId": "bdf77244-c93a-47af-9ea8-45e3da16a534-o-0"
   }
  ],
  "steps": [
@@ -285,7 +285,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 2
+     "nRows": 1
     },
     "filters": {
      "kind": "Filters",
@@ -298,7 +298,7 @@
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "UKA operator",
-      "version": "0.5.4",
+      "version": "0.5.5",
       "operatorId": "2",
       "operatorKind": "ROperator",
       "propertyValues": [
@@ -413,13 +413,13 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 173
+     "nRows": 1
     },
     "taskId": ""
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "de6c8841-cca1-425c-81f3-b153342f6be0"
+    "id": "744a60e8-0ac7-4099-aca0-0e64152d0242"
    },
    "parentDataStepId": ""
   },
@@ -1033,13 +1033,13 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 260
+     "nRows": 348
     },
     "taskId": ""
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "95175337-5a87-4901-b822-3689c670ffbb"
+    "id": "f81c714b-bca3-45c6-a5c4-7773f60b75ef"
    },
    "parentDataStepId": ""
   },
@@ -1374,7 +1374,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "83a7b9cc-778c-4ff3-9449-ee5af8520d9a"
+    "id": "c6d41dfb-26e0-4b36-8a66-7b52091e41f7"
    },
    "parentDataStepId": ""
   },
@@ -1754,7 +1754,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "421327cc-5d62-4cd4-8abd-e7f3a59aaa46"
+    "id": "c866620a-71fe-4f23-9b7f-3d4168142a74"
    },
    "parentDataStepId": ""
   },
@@ -1882,76 +1882,7 @@
       "kind": "MappingFactor",
       "name": "Measurement",
       "type": "double",
-      "description": "Select the factor that defines the values to use in the computation.\n\nExample:\n* log transform of S100\n* log transformed and ComBat Corrected S100\n* VSN transformed S100\n* VSN transformed and ComBat Corrected S100",
-      "ontologyMapping": "",
-      "crosstabMapping": "",
-      "cardinality": "",
-      "factors": [],
-      "factorName": "Quantitation Type",
-      "isSingle": true,
-      "isRequired": true
-     },
-     {
-      "kind": "MappingFactor",
-      "name": "Group",
-      "type": "string",
-      "description": "Select the factor that defines the comparison groups.\n\nExample:\n* Test Condition\n* Treatment off chip",
-      "ontologyMapping": "",
-      "crosstabMapping": "",
-      "cardinality": "",
-      "factors": [],
-      "factorName": "Test Condition",
-      "isSingle": true,
-      "isRequired": false
-     },
-     {
-      "kind": "MappingFactor",
-      "name": "Variable",
-      "type": "string",
-      "description": "Select the peptide identifier.\n\nExample:\n* ID",
-      "ontologyMapping": "",
-      "crosstabMapping": "",
-      "cardinality": "",
-      "factors": [],
-      "factorName": "Peptide",
-      "isSingle": false,
-      "isRequired": true
-     },
-     {
-      "kind": "MappingFactor",
-      "name": "Supergroup",
-      "type": "string",
-      "description": "Select a factor that identifies the Supergroup. UKA is run for each group comparison within a Supergroup. \n\nExample:\n* Supergroup\n* Replicate\n* Cell line",
-      "ontologyMapping": "",
-      "crosstabMapping": "",
-      "cardinality": "",
-      "factors": [],
-      "factorName": "Supergroup",
-      "isSingle": false,
-      "isRequired": true
-     },
-     {
-      "kind": "MappingFactor",
-      "name": "Observation",
-      "type": "string",
-      "description": "Select the factor(s) defining a single value per cell.\n\nExample:\n* Barcode and Row\n* Barcode and Array\n* Sample Name",
-      "ontologyMapping": "",
-      "crosstabMapping": "",
-      "cardinality": "",
-      "factors": [],
-      "factorName": "Single Data Value per Cell",
-      "isSingle": false,
-      "isRequired": false
-     }
-    ],
-    "filters": [],
-    "steps": [],
-    "defaultFactors": [
-     {
-      "kind": "MappingFactor",
-      "name": "Measurement",
-      "type": "double",
-      "description": "Select the factor that defines the values to use in the computation.\n\nExample:\n* log transform of S100\n* log transformed and ComBat Corrected S100\n* VSN transformed S100\n* VSN transformed and ComBat Corrected S100",
+      "description": "Select the factor that defines the values to use in the computation.\n\nExample:\n* log/VSN transform of S100\n* log/VSN transform and ComBat Corrected S100\n* FC-base UKA: FC.subtract.value",
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
@@ -1970,7 +1901,7 @@
       "kind": "MappingFactor",
       "name": "Group",
       "type": "string",
-      "description": "Select the factor that defines the comparison groups.\n\nExample:\n* Test Condition\n* Treatment off chip",
+      "description": "For Comparison-based UKA, select the factor that defines the comparison groups.\n\nExample:\n* Test Condition\n* Treatment off chip",
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
@@ -2008,7 +1939,7 @@
       "kind": "MappingFactor",
       "name": "Supergroup",
       "type": "string",
-      "description": "Select a factor that identifies the Supergroup. UKA is run for each group comparison within a Supergroup. \n\nExample:\n* Supergroup\n* Replicate\n* Cell line",
+      "description": "For Comparison-based UKA, select a factor that identifies the Supergroup. UKA is run for each group comparison within a Supergroup. \nExample:\n* Supergroup\n* Replicate\n* Cell line\n\nFor FC-based UKA, this is the factor that defines the observation. \nExample: \n* Sample_name",
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
@@ -2019,7 +1950,7 @@
         "type": "string"
        }
       ],
-      "factorName": "Supergroup",
+      "factorName": "Supergroup or Observation",
       "isSingle": false,
       "isRequired": true
      },
@@ -2027,7 +1958,106 @@
       "kind": "MappingFactor",
       "name": "Observation",
       "type": "string",
-      "description": "Select the factor(s) defining a single value per cell.\n\nExample:\n* Barcode and Row\n* Barcode and Array\n* Sample Name",
+      "description": "For Comparison-based UKA, select the factor(s) defining a single value per cell.\n\nExample:\n* Barcode and Row\n* Barcode and Array\n* Sample Name",
+      "ontologyMapping": "",
+      "crosstabMapping": "",
+      "cardinality": "",
+      "factors": [
+       {
+        "kind": "Factor",
+        "name": "Observation",
+        "type": "string"
+       }
+      ],
+      "factorName": "Single Data Value per Cell",
+      "isSingle": false,
+      "isRequired": false
+     }
+    ],
+    "filters": [],
+    "steps": [],
+    "defaultFactors": [
+     {
+      "kind": "MappingFactor",
+      "name": "Measurement",
+      "type": "double",
+      "description": "Select the factor that defines the values to use in the computation.\n\nExample:\n* log/VSN transform of S100\n* log/VSN transform and ComBat Corrected S100\n* FC-base UKA: FC.subtract.value",
+      "ontologyMapping": "",
+      "crosstabMapping": "",
+      "cardinality": "",
+      "factors": [
+       {
+        "kind": "Factor",
+        "name": "Measurement",
+        "type": "double"
+       }
+      ],
+      "factorName": "Quantitation Type",
+      "isSingle": true,
+      "isRequired": true
+     },
+     {
+      "kind": "MappingFactor",
+      "name": "Group",
+      "type": "string",
+      "description": "For Comparison-based UKA, select the factor that defines the comparison groups.\n\nExample:\n* Test Condition\n* Treatment off chip",
+      "ontologyMapping": "",
+      "crosstabMapping": "",
+      "cardinality": "",
+      "factors": [
+       {
+        "kind": "Factor",
+        "name": "Group",
+        "type": "string"
+       }
+      ],
+      "factorName": "Test Condition",
+      "isSingle": true,
+      "isRequired": false
+     },
+     {
+      "kind": "MappingFactor",
+      "name": "Variable",
+      "type": "string",
+      "description": "Select the peptide identifier.\n\nExample:\n* ID",
+      "ontologyMapping": "",
+      "crosstabMapping": "",
+      "cardinality": "",
+      "factors": [
+       {
+        "kind": "Factor",
+        "name": "Variable",
+        "type": "string"
+       }
+      ],
+      "factorName": "Peptide",
+      "isSingle": false,
+      "isRequired": true
+     },
+     {
+      "kind": "MappingFactor",
+      "name": "Supergroup",
+      "type": "string",
+      "description": "For Comparison-based UKA, select a factor that identifies the Supergroup. UKA is run for each group comparison within a Supergroup. \nExample:\n* Supergroup\n* Replicate\n* Cell line\n\nFor FC-based UKA, this is the factor that defines the observation. \nExample: \n* Sample_name",
+      "ontologyMapping": "",
+      "crosstabMapping": "",
+      "cardinality": "",
+      "factors": [
+       {
+        "kind": "Factor",
+        "name": "Supergroup",
+        "type": "string"
+       }
+      ],
+      "factorName": "Supergroup or Observation",
+      "isSingle": false,
+      "isRequired": true
+     },
+     {
+      "kind": "MappingFactor",
+      "name": "Observation",
+      "type": "string",
+      "description": "For Comparison-based UKA, select the factor(s) defining a single value per cell.\n\nExample:\n* Barcode and Row\n* Barcode and Array\n* Sample Name",
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
@@ -2371,67 +2401,19 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "9d6afb09-38db-4a24-9458-fce8a3eb9041"
+    "id": "8b52f5f7-fcf4-4850-81d2-e7c22648b043"
    },
    "parentDataStepId": ""
   },
   {
-   "kind": "InStep",
-   "id": "b22859eb-6d86-4f67-a466-eda59df934b5",
-   "groupId": "",
-   "name": "Input",
-   "inputs": [
-    {
-     "kind": "InputPort",
-     "id": "b22859eb-6d86-4f67-a466-eda59df934b5-i-0",
-     "linkType": "any",
-     "name": "from"
-    }
-   ],
-   "outputs": [
-    {
-     "kind": "OutputPort",
-     "id": "b22859eb-6d86-4f67-a466-eda59df934b5-o-0",
-     "linkType": "any",
-     "name": "to"
-    }
-   ],
-   "rectangle": {
-    "kind": "Rectangle",
-    "extent": {
-     "kind": "Point",
-     "x": 88.99000000000001,
-     "y": 55.0
-    },
-    "topLeft": {
-     "kind": "Point",
-     "x": 740.505,
-     "y": -6.5
-    }
-   },
-   "state": {
-    "kind": "StepState",
-    "taskId": "",
-    "taskState": {
-     "kind": "InitState"
-    }
-   },
-   "description": "Input of a sub workflow.",
-   "groupPortPosition": {
-    "kind": "Point",
-    "x": 0.0,
-    "y": 0.0
-   }
-  },
-  {
    "kind": "OutStep",
-   "id": "42e6b617-574a-4c78-b2d0-45ccea886019",
+   "id": "fe28e296-1476-475f-87e7-347b6b5afb01",
    "groupId": "",
    "name": "Output",
    "inputs": [
     {
      "kind": "InputPort",
-     "id": "42e6b617-574a-4c78-b2d0-45ccea886019-i-0",
+     "id": "fe28e296-1476-475f-87e7-347b6b5afb01-i-0",
      "linkType": "any",
      "name": "from"
     }
@@ -2439,7 +2421,7 @@
    "outputs": [
     {
      "kind": "OutputPort",
-     "id": "42e6b617-574a-4c78-b2d0-45ccea886019-o-0",
+     "id": "fe28e296-1476-475f-87e7-347b6b5afb01-o-0",
      "linkType": "any",
      "name": "to"
     }
@@ -2453,7 +2435,7 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 894.505,
+     "x": 965.505,
      "y": 192.5
     }
    },
@@ -2470,11 +2452,59 @@
     "x": 0.0,
     "y": 0.0
    }
+  },
+  {
+   "kind": "InStep",
+   "id": "bdf77244-c93a-47af-9ea8-45e3da16a534",
+   "groupId": "",
+   "name": "Input",
+   "inputs": [
+    {
+     "kind": "InputPort",
+     "id": "bdf77244-c93a-47af-9ea8-45e3da16a534-i-0",
+     "linkType": "any",
+     "name": "from"
+    }
+   ],
+   "outputs": [
+    {
+     "kind": "OutputPort",
+     "id": "bdf77244-c93a-47af-9ea8-45e3da16a534-o-0",
+     "linkType": "any",
+     "name": "to"
+    }
+   ],
+   "rectangle": {
+    "kind": "Rectangle",
+    "extent": {
+     "kind": "Point",
+     "x": 88.99000000000001,
+     "y": 55.0
+    },
+    "topLeft": {
+     "kind": "Point",
+     "x": 742.505,
+     "y": -10.5
+    }
+   },
+   "state": {
+    "kind": "StepState",
+    "taskId": "",
+    "taskState": {
+     "kind": "InitState"
+    }
+   },
+   "description": "Input of a sub workflow.",
+   "groupPortPosition": {
+    "kind": "Point",
+    "x": 0.0,
+    "y": 0.0
+   }
   }
  ],
  "offset": {
   "kind": "Point",
-  "x": 17.0,
+  "x": 19.0,
   "y": 69.0
  },
  "scale": 1.0
